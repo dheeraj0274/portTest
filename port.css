@@ -346,6 +346,20 @@ label #btn , label #cancel{
     justify-content: space-between;
     align-items: center;
    }
+      .home .home-content{
+    margin-left: 60px;
+   }
+
+   .headline{
+    margin-left: 10px;
+   }
+
+
+   .skills{
+    margin-top: 20px;
+   }
+   
+      
 
   }
   
