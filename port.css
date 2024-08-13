@@ -221,6 +221,7 @@ label #btn , label #cancel{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+      
     align-items: center;
     width: 180px;
     height: 240px;
@@ -338,6 +339,12 @@ label #btn , label #cancel{
     padding: 0;
     width: 110px;
     height: 140px;
+    
+   }
+      .skills .skill-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
    }
 
   }
