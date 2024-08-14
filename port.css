@@ -362,6 +362,111 @@ label #btn , label #cancel{
       
 
   }
+.projects{
+
+  background:linear-gradient(to right,#bdc3c7 ,#2c3e50)
+
+  
+
+ }
+ .projects h1{
+  text-align: center;
+  
+  text-transform: uppercase;
+  word-spacing: 10px;
+  font-size: 30px;
+  color: wheat;
+ }
+ .projects .header{
+  padding: 3rem;
+ }
+ .titleh{
+  text-align: center;
+
+ }
+ .projects .titleh::after {
+  
+  content: "—What I have made ?—";
+  text-overflow: ellipsis;
+  display: -webki-box;
+  -webkit-box-orient: vertical;
+  
+  overflow: hidden;
+  font-size: 20px;
+  color: black;
+
+}
+
+
+ .project-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  
+ }
+
+
+ .project-card{
+  width: 300px;
+  height: 400px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  margin: 20px;
+
+ 
+ }
+ .project-card img{
+  width: 100%;
+  height: auto;
+ }
+ .project-cont{
+  padding: 16px;
+ }
+ .project-cont .about-project{
+  color: #666;
+  font-size: 20px;
+  line-height: 1.3;
+  margin-bottom: 8px;
+ }
+ .project-card .project-cont .btn{
+  
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 50px;
+  color: #fff;
+  cursor: pointer;
+  transition: 200ms;
+  
+ }
+ .project-card .project-cont .btn:hover{
+  background-color: green;
+ }
+ .project-card .project-cont h3{
+  background-image: radial-gradient(#553c9a,#ee4b2b);
+  color: transparent;
+ -webkit-background-clip: text;
+ font-size: 25px;
+  background-clip: text;
+ }
+
+
+ 
+
+ 
+
+
+  
+  
+  
+
+  
+
   
 
 
