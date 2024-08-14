@@ -67,7 +67,7 @@ body{
 
 
 label #btn , label #cancel{
-  color: white;
+  color: red;
   float: right;
   font-size: 30px;
   line-height: 60px;
