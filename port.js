@@ -29,7 +29,7 @@ const checkbox = document.getElememtById('check');
 const liBtn = document.querySelectorAll('.menu-btn');
 liBtn.forEach(atag => {
   atag.addEventListener('click', ()=> {
-    Checkbox.checked = false;
+    checkbox.checked = false;
   });
 });
 
