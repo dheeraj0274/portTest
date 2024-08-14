@@ -31,6 +31,6 @@ const liBtn = document.querySelectorAll('.menu-btn');
 liBtn.forEach(atag =>{
 
               atag.addEventListener('click' , () => {
-                checkbox.checked=false;
+                checkbox.checked = false;
               });
 });
