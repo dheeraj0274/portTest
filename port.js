@@ -24,12 +24,12 @@ window.addEventListener('scroll' ,()=>{
 
 
 
-const checkbox = document.getElememtById('check');
+const Checkbox = document.getElememtById('check');
 
 const liBtn = document.querySelectorAll('.menu-btn');
 liBtn.forEach(atag => {
   atag.addEventListener('click', ()=> {
-    checkbox.checked = false;
+    Checkbox.checked = false;
   });
 });
 
