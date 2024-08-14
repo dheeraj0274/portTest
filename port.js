@@ -24,7 +24,7 @@ window.addEventListener('scroll' ,()=>{
 
 
 
-const Checkbox = document.getElememtById('check');
+const Checkbox = document.getElementById('check');
 
 const liBtn = document.querySelectorAll('.menu-btn');
 liBtn.forEach(atag => {
