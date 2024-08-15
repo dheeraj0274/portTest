@@ -283,6 +283,7 @@ label #btn , label #cancel{
       left: -100%;
       text-align: center;
       transition: all .4s;
+      opacity:0.99;
     }
      #check:checked ~ .menu{
       left: 0%;
