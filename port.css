@@ -362,10 +362,28 @@ label #btn , label #cancel{
    .skills{
     margin-top: 20px;
    }
-   
+
+
+      .project-container .project-card .project-cont h3{
+    font-size: 20px;
+   }
+
+    .project-container .project-card .project-cont .btn{
+      margin-top: 42px;
+      
+      text-align: center;
+    }
+  }
+
+/*   media section ends here */
+
+
       
 
-  }
+  
+
+
+      
 .projects{
 
   background:linear-gradient(to right,#bdc3c7 ,#2c3e50)
